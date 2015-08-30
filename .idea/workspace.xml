@@ -33,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seller.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="seller.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/listings/seller.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13513513" vertical-offset="0" max-vertical-offset="666">
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="585">
               <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
@@ -56,8 +56,18 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/listings/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="375">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="450">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8895435" vertical-offset="311" max-vertical-offset="1035">
+              <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -81,7 +91,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/views/listings/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/listings/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/config/application.yml" />
         <option value="$PROJECT_DIR$/config/dropbox.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -104,9 +113,10 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/listings_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/listings/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/listing.rb" />
         <option value="$PROJECT_DIR$/app/views/listings/seller.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/listings/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
       </list>
     </option>
   </component>
@@ -342,7 +352,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistoryKey" value="rout&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/config/routes.rb&#10;rou&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/config/routes.rb&#10;ge&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/Gemfile&#10;gem&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/Gemfile&#10;Ge&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/Gemfile&#10;&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/Gemfile&#10;schem&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/db/schema.rb&#10;Gem&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/Gemfile&#10;sche&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/db/schema.rb" />
+    <property name="SearchEverywhereHistoryKey" value="cus&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/app/assets/stylesheets/custom.css.scss&#10;rout&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/config/routes.rb&#10;rou&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/config/routes.rb&#10;ge&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/Gemfile&#10;gem&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/Gemfile&#10;Ge&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/Gemfile&#10;&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/Gemfile&#10;schem&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/db/schema.rb&#10;Gem&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/Gemfile&#10;sche&#9;FILE&#9;file:///Users/erivas78/Documents/projects/etsydemo/db/schema.rb" />
   </component>
   <component name="RunManager" selected="Rails.Development: etsydemo">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -682,14 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.916666" vertical-offset="146" max-vertical-offset="915">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/dropbox.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.066176474" vertical-offset="0" max-vertical-offset="680">
@@ -876,14 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listings/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="375">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/listings/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="679">
@@ -915,8 +909,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/listings/seller.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13513513" vertical-offset="0" max-vertical-offset="666">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="585">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/listings/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="450">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8895435" vertical-offset="311" max-vertical-offset="1035">
+          <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
           <folding />
         </state>
       </provider>
