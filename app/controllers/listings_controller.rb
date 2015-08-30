@@ -1,5 +1,7 @@
 class ListingsController < ApplicationController
   before_action :set_listing, except: [:index, :new, :create]
+  before_filter :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
+  before_filter :check_user, only: [:edit, :update, :destroy]
 
   def index
     @listings = Listing.all
@@ -52,5 +54,11 @@ class ListingsController < ApplicationController
 
   def set_listing
     @listing = Listing.find(params[:id])
+  end
+
+  def check_user
+    if current_user != @listing.user
+      redirect_to root_path, alert: "Sorry, this listing belongs to someone else"
+    end
   end
 end
