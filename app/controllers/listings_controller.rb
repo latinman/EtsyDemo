@@ -19,7 +19,7 @@ class ListingsController < ApplicationController
       flash[:success] = "Listing created successfully!"
       redirect_to @listing
     else
-      flash[:danger] = "Error creatign listing"
+      flash[:danger] = "Error creating listing"
       render "new"
     end
   end
