@@ -10,5 +10,5 @@ class Listing < ActiveRecord::Base
   end
     validates :name, presence: true
     validates :description, presence: true
-    validates :price, numericality: { greater_than_0: true }
+    validates :price, numericality: { greater_than: 0 }
 end
