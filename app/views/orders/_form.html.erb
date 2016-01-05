@@ -4,7 +4,7 @@
       <%= image_tag @listing.image.url %>
     </div>
     <h3><%= @listing.name %></h3>
-    <h4><%= number_to_currency @listing.price %></h4>
+    <h4><span class="price"><%= number_to_currency @listing.price %></span></h4>
   </div>
   <div class="col-md-8">
     <%= form_for([@listing, @order]) do |f| %>

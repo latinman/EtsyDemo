@@ -12,7 +12,7 @@
     <td><%= image_tag listing.image.url(:thumb) %></td>
     <td><%= listing.name %></td>
     <td><%= listing.description %></td>
-    <td><%= number_to_currency listing.price %></td>
+    <td><span class="price"><%= number_to_currency listing.price %></span></td>
     <td>
       <div class="btn-group">
         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -30,5 +30,5 @@
 </table>
 
 <% if user_signed_in? %>
-    <%= link_to "New Listing", new_listing_path, class: "btn btn-link" %>
+    <%= link_to "New Listing", new_listing_path, class: "btn btn-link", data: { no_turbolinks: true } %>
 <% end %>
